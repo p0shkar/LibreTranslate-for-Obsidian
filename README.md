@@ -3,11 +3,14 @@
 LibreTranslate is an Obsidian plugin that translates selected text or entire notes using a LibreTranslate-compatible server. It is designed to work well with markdown content and offers both inline replacement and callout-based translation output.
 
 ## Features
+### Translation Features
 - Translate a selected text fragment in place
 - Translate an entire markdown document
 - Preserve markdown structure during translation where possible
 - Protect callouts, links, code spans, and other markdown-sensitive content
 - Insert translations as a callout or replace the original text
+
+### Settings Features
 - Choose source and target languages
 - Refresh available languages from the configured server
 - Reset language-only or full plugin settings
@@ -53,7 +56,7 @@ Hello world
 
 ## Configure the server
 
-The plugin works with any LibreTranslate-compatible endpoint. By default it uses:
+The plugin works with any LibreTranslate-compatible endpoint, including locally installed (offline). To easily get started, it by default uses the following (online) API URL (no affiliation):
 
 ```text
 https://translate.libregalaxy.org
@@ -69,7 +72,12 @@ You can change this in the plugin settings if you run your own instance.
 
 ## Caveat
 
-I'm not a developer, therefor this plugin and its current implementation are largely vibe coded: the feature set is functional, but the codebase may still contain rough edges, assumptions, and areas that need cleanup or hardening.
+I'm not a developer, therefore this plugin and its current implementation are largely vibe coded. The feature set is functional, but the codebase may still contain rough edges, assumptions, and areas that need cleanup or hardening.
+
+There's plenty of translation plugins, but I didn't really find any that achieved what I wanted, which is why I set out to build this plugin. The main goals are:
+- Easy setup without requirements for installing anything additional, besides the plugin.
+- No third-party accounts or login requirements (even for generating API keys).
+- Translation using free resources only.
 
 ## Contributing
 
