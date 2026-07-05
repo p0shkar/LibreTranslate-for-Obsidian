@@ -1,6 +1,6 @@
 node_modules
 main.js
-package-lock.json
+#package-lock.json
 *.map
 .DS_Store
 _ObsidianTest
