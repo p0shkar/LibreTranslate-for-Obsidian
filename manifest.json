@@ -3,8 +3,8 @@
   "name": "LibreTranslate",
   "version": "1.0.0",
   "minAppVersion": "1.13.1",
-  "description": "Translate text in Obsidian using LibreTranslate.",
+  "description": "Translate text using LibreTranslate.",
   "author": "p0shkar",
-  "authorUrl": "http://github.com/p0shkar",
+  "authorUrl": "https://github.com/p0shkar",
   "isDesktopOnly": false
 }
