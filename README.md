@@ -91,7 +91,7 @@ This project is licensed under the MIT License - see the LICENSE file for deta
 
 Oskar Norén - [p0shkar](https://github.com/p0shkar)
 
-Project Link: [LibreTranslate-for-Obsidian](https://github.com/p0shkar/LibreTranslate-for-Obsidian)
+Project Link - [LibreTranslate-for-Obsidian](https://github.com/p0shkar/LibreTranslate-for-Obsidian)
 
 ## Support
 
