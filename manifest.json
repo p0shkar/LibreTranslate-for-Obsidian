@@ -1,7 +1,7 @@
 {
   "id": "libretranslate",
   "name": "LibreTranslate",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "minAppVersion": "1.13.1",
   "description": "Translate text in Obsidian using LibreTranslate.",
   "author": "p0shkar",
