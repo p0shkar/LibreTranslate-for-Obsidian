@@ -1,8 +1,8 @@
 {
   "id": "libretranslate",
   "name": "LibreTranslate",
-  "version": "1.0.1",
-  "minAppVersion": "1.13.1",
+  "version": "1.0.2",
+  "minAppVersion": "1.12.7",
   "description": "Translate text using LibreTranslate.",
   "author": "p0shkar",
   "authorUrl": "https://github.com/p0shkar",

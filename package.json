@@ -1,6 +1,6 @@
 {
   "name": "obsidian-libretranslate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Obsidian plugin for LibreTranslate",
   "main": "main.js",
   "scripts": {
@@ -17,10 +17,8 @@
   "devDependencies": {
     "@types/node": "^22.0.0",
     "esbuild": "^0.28.1",
-    "obsidian": "^1.13.1",
+    "obsidian": "^1.12.7",
     "typescript": "^5.7.0"
   },
-  "allowScripts": {
-    "esbuild@0.28.1": true
-  }
+  "allowScripts": {}
 }
