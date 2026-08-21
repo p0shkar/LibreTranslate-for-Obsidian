@@ -1,5 +1,4 @@
 # LibreTranslate Obsidian Plugin
-
 LibreTranslate is an Obsidian plugin that translates selected text or entire notes using a LibreTranslate-compatible server. It is designed to work well with markdown content and offers both inline replacement and callout-based translation output.
 
 ## Features
@@ -14,13 +13,14 @@ LibreTranslate is an Obsidian plugin that translates selected text or entire not
 - Choose source and target languages
 - Refresh available languages from the configured server
 - Reset language-only or full plugin settings
+<img src="https://github.com/p0shkar/LibreTranslate-for-Obsidian/blob/main/.github/Settings.png" alt="Settings">
 
 ## Example usage
-
 ### Translate selected text
 1. Select a paragraph in your note.
 2. Run the command or use the context menu action.
 3. The selected text is translated and inserted according to your output setting.
+<img src="https://github.com/p0shkar/LibreTranslate-for-Obsidian/blob/main/.github/Replace.gif" alt="Replace original with translation">
 
 ### Translate an entire document
 1. Open a markdown note.
@@ -28,7 +28,6 @@ LibreTranslate is an Obsidian plugin that translates selected text or entire not
 3. The full note is translated and written back to the editor.
 
 ### Callout output example
-
 Original:
 
 ```md
@@ -43,9 +42,9 @@ Hello world
 > [!note] Translation
 > Bonjour le monde
 ```
+<img src="https://github.com/p0shkar/LibreTranslate-for-Obsidian/blob/main/.github/Keep.gif" alt="Keep original and insert translation as a callout">
 
 ## Install from the Obsidian Community Plugin store
-
 1. Open Obsidian.
 2. Go to Settings -> Community plugins.
 3. Make sure Safe Mode is off.
@@ -55,7 +54,6 @@ Hello world
 7. Open the plugin settings and configure your LibreTranslate server URL and language preferences.
 
 ## Configure the server
-
 The plugin works with any LibreTranslate-compatible endpoint, including locally installed (offline). To easily get started, it by default uses the following (online) API URL (no affiliation):
 
 ```text
@@ -65,13 +63,11 @@ https://translate.libregalaxy.org
 You can change this in the plugin settings if you run your own instance.
 
 ## Known issues
-
 - Markdown preservation is best-effort and may not be perfect for every structure.
 - Some complex callout or blockquote layouts may still need manual cleanup.
 - Translation output can vary depending on the selected LibreTranslate server and the source text.
 
 ## Caveat
-
 I'm not a developer, therefore this plugin and its current implementation are largely vibe coded. The feature set is functional, but the codebase may still contain rough edges, assumptions, and areas that need cleanup or hardening.
 
 There's plenty of translation plugins, but I didn't really find any that achieved what I wanted, which is why I set out to build this plugin. The main goals are:
@@ -80,21 +76,17 @@ There's plenty of translation plugins, but I didn't really find any that achieve
 - Translation using free resources only.
 
 ## Contributing
-
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ## License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-
 Oskar Norén - [p0shkar](https://github.com/p0shkar)
 
 Project Link - [LibreTranslate-for-Obsidian](https://github.com/p0shkar/LibreTranslate-for-Obsidian)
 
 ## Support
-
 Support me with liquid energy:
 
 <a href="https://www.buymeacoffee.com/p0shkar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
